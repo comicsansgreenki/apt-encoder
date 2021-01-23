@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/guest/Dokumenty/C-code/noaa_apt/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "./main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM "main.c"
 
@@ -100,7 +100,7 @@ $(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) "main.c"
 
 $(IntermediateDirectory)/aptcode.c$(ObjectSuffix): aptcode.c $(IntermediateDirectory)/aptcode.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/guest/Dokumenty/C-code/noaa_apt/aptcode.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/aptcode.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "./aptcode.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/aptcode.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/aptcode.c$(DependSuffix): aptcode.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/aptcode.c$(ObjectSuffix) -MF$(IntermediateDirectory)/aptcode.c$(DependSuffix) -MM "aptcode.c"
 
@@ -108,7 +108,7 @@ $(IntermediateDirectory)/aptcode.c$(PreprocessSuffix): aptcode.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/aptcode.c$(PreprocessSuffix) "aptcode.c"
 
 $(IntermediateDirectory)/audioset.c$(ObjectSuffix): audioset.c $(IntermediateDirectory)/audioset.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/guest/Dokumenty/C-code/noaa_apt/audioset.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/audioset.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "./audioset.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/audioset.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/audioset.c$(DependSuffix): audioset.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/audioset.c$(ObjectSuffix) -MF$(IntermediateDirectory)/audioset.c$(DependSuffix) -MM "audioset.c"
 
@@ -116,7 +116,7 @@ $(IntermediateDirectory)/audioset.c$(PreprocessSuffix): audioset.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/audioset.c$(PreprocessSuffix) "audioset.c"
 
 $(IntermediateDirectory)/image.c$(ObjectSuffix): image.c $(IntermediateDirectory)/image.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/guest/Dokumenty/C-code/noaa_apt/image.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/image.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "./image.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/image.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/image.c$(DependSuffix): image.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/image.c$(ObjectSuffix) -MF$(IntermediateDirectory)/image.c$(DependSuffix) -MM "image.c"
 
@@ -124,7 +124,7 @@ $(IntermediateDirectory)/image.c$(PreprocessSuffix): image.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/image.c$(PreprocessSuffix) "image.c"
 
 $(IntermediateDirectory)/wavwrite.c$(ObjectSuffix): wavwrite.c $(IntermediateDirectory)/wavwrite.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/guest/Dokumenty/C-code/noaa_apt/wavwrite.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/wavwrite.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "./wavwrite.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/wavwrite.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/wavwrite.c$(DependSuffix): wavwrite.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/wavwrite.c$(ObjectSuffix) -MF$(IntermediateDirectory)/wavwrite.c$(DependSuffix) -MM "wavwrite.c"
 
